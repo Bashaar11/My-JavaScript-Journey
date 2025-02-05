@@ -120,3 +120,41 @@ if (percentage >= 90) {
 } else { grade = "F" }
 
 console.log(grade);
+
+////////////// Comparison Operators //////////////
+
+// Equal to: == FOR EXAMPLE : "10" == 10 -> TRUE, 15 == 37 -> FALSE
+// Equal to (also ckeck data types): === FOR EXAMPLE : 10 === "10" -> FALSE, "15" === "15" -> TRUE
+// Not equal to: != FOR EXAMPLE : 10 != 10 -> FALSE, 15 != 37 -> TRUE
+// Greater than: > FOR EXAMPLE : 10 > 10 -> FALSE, 37 > 15 -> TRUE
+// Less than: < FOR EXAMPLE : 10 < 10 -> FALSE, 15 < 37 -> TRUE
+// Greater than or equal to: >= FOR EXAMPLE : 10 >= 10 -> TRUE, 15 >= 37 -> FALSE
+// Less than or equal to: <= FOR EXAMPLE : 15 <= 15 -> TRUE, 37 <= 15 -> FALSE
+
+console.log('10 === "10" --> ', 10 === "10")
+
+////////////// Testing Set of Conditions (Logical Operators) //////////////
+
+// AND (&&) FOR EXAMPLE : 10 > 5 && 10 < 15 -> TRUE
+// TRUE && TRUE -> TRUE
+// TRUE && FALSE -> FALSE
+// FALSE && TRUE -> FALSE
+// FALSE && FALSE -> FALSE
+// OR (||) FOR EXAMPLE : 10 > 5 || 27 < 15 -> TRUE
+// TRUE || TRUE -> TRUE
+// TRUE || FALSE -> TRUE
+// FALSE || TRUE -> TRUE
+// FALSE || FALSE -> FALSE
+// NOT (!) FOR EXAMPLE : ! (10 > 5) -> FALSE
+// !TRUE -> FALSE
+// !FALSE -> TRUE
+
+console.log(!(27 < 15))
+
+////////////// If Statements Nested //////////////
+
+if (10 > 5) {
+    if (5 < 2) {
+        console.log("Inner If Executed")
+    } else { console.log("Inner else Executed") }
+} else { console.log("Outer If Executed") }
