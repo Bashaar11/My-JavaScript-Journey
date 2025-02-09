@@ -158,3 +158,8 @@ if (10 > 5) {
         console.log("Inner If Executed")
     } else { console.log("Inner else Executed") }
 } else { console.log("Outer If Executed") }
+
+////////////// PROMPTS //////////////
+
+let num = prompt("Enter he number")
+let num2 = prompt("Enter he number")
